@@ -22,7 +22,7 @@
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>8DD49BE4-DCC8-4735-8B6E-3C7FAD48F055</string>
+						<string>5B7C74E7-C528-4E14-9EA2-F3219975A90F</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>UseParameter</key>
@@ -151,7 +151,7 @@
 								<key>MacroActionType</key>
 								<string>ExecuteMacro</string>
 								<key>MacroUID</key>
-								<string>A7E18116-1BE5-4F02-90A3-D9F3639BD248</string>
+								<string>EF9E96EF-FCA1-46E3-AAA6-EE86575F911F</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>UseParameter</key>
@@ -188,7 +188,7 @@
 								<key>MacroActionType</key>
 								<string>ExecuteMacro</string>
 								<key>MacroUID</key>
-								<string>A7E18116-1BE5-4F02-90A3-D9F3639BD248</string>
+								<string>EF9E96EF-FCA1-46E3-AAA6-EE86575F911F</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>UseParameter</key>
@@ -225,7 +225,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>BB29072B-41EE-4E49-B244-ADA593176B83</string>
+				<string>4B472E3C-A1E3-438F-81FA-384B665AAEE5</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -439,15 +439,10 @@
 						<true/>
 					</dict>
 					<dict>
-						<key>Conditions</key>
-						<dict>
-							<key>ConditionList</key>
-							<array/>
-							<key>ConditionListMatch</key>
-							<string>All</string>
-						</dict>
 						<key>MacroActionType</key>
-						<string>PauseUntil</string>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.2</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 					</dict>
@@ -466,10 +461,26 @@
 						<string>Front</string>
 					</dict>
 					<dict>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ButtonConditionSelectionType</key>
+									<string>Is</string>
+									<key>ButtonConditionType</key>
+									<string>IsEnabled</string>
+									<key>ButtonTitle</key>
+									<string>取消</string>
+									<key>ConditionType</key>
+									<string>Button</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
 						<key>MacroActionType</key>
-						<string>Pause</string>
-						<key>Time</key>
-						<string>0.5</string>
+						<string>PauseUntil</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 					</dict>
@@ -515,13 +526,13 @@
 				<key>CustomIconData</key>
 				<string>KMEP-GenericApplication-/Applications/App Store.app</string>
 				<key>ModificationDate</key>
-				<real>563719834.66511595</real>
+				<real>564023270.24202704</real>
 				<key>Name</key>
 				<string>login store</string>
 				<key>Triggers</key>
 				<array/>
 				<key>UID</key>
-				<string>A7E18116-1BE5-4F02-90A3-D9F3639BD248</string>
+				<string>EF9E96EF-FCA1-46E3-AAA6-EE86575F911F</string>
 			</dict>
 		</array>
 		<key>Name</key>
